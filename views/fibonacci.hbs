@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+
+
+
+{{#if fiboval}}
+  <p>Fibonacci to {{fibonum}} is {{fiboval}}</p>
+{{/if}}
+
+<p>Enter a number to see its' Fibonacci number</p>
+<form action="/fibonacci" method="GET" name="fibonacci">
+  <input type="text" name="fibonum" id="">
+  <input type="submit" value="Submit">
+</form>
